@@ -87,9 +87,9 @@ namespace ay
 		// Use the MurmurHash3 64-bit finalizer to hash our seed
 		key_type key = seed;
 		key ^= (key >> 33);
-		key *= 0xff51afd7ed558ccd;
+		key *= 0xe27c40e5c7ae7f6d;
 		key ^= (key >> 33);
-		key *= 0xc4ceb9fe1a85ec53;
+		key *= 0x84e7d099744d5037;
 		key ^= (key >> 33);
 
 		// Make sure that a bit in each byte is set
